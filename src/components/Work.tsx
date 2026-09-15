@@ -10,32 +10,30 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Work = () => {
   useEffect(() => {
-    // Disable pinning on mobile to allow scrolling
+    // Disable pinning on mobile to allow natural scrolling
     if (window.innerWidth <= 768) return;
 
-    let translateX: number = 0;
+    const flex = document.querySelector(".work-flex") as HTMLElement;
+    const container = document.querySelector(".work-container") as HTMLElement;
+    if (!flex || !container) return;
 
-    function setTranslateX() {
-      const box = document.getElementsByClassName("work-box");
-      if (box.length === 0) return;
-      const rectLeft = document
-        .querySelector(".work-container")!
-        .getBoundingClientRect().left;
-      const rect = box[0].getBoundingClientRect();
-      const parentWidth = box[0].parentElement!.getBoundingClientRect().width;
-      let padding: number =
-        parseInt(window.getComputedStyle(box[0]).padding) / 2;
-      translateX = rect.width * box.length - (rectLeft + parentWidth) + padding;
+    function getTranslateX() {
+      if (!flex || !container) return 0;
+      // Exact horizontal overflow distance
+      const scrollWidth = flex.scrollWidth;
+      const clientWidth = container.clientWidth;
+      const overflow = scrollWidth - clientWidth;
+      return Math.max(0, overflow);
     }
 
-    setTranslateX();
+    const translateX = getTranslateX();
 
     let timeline = gsap.timeline({
       scrollTrigger: {
         trigger: ".work-section",
         start: "top top",
         end: `+=${translateX}`,
-        scrub: 1,
+        scrub: 0.5,
         pin: true,
         pinSpacing: true,
         anticipatePin: 1,
@@ -50,10 +48,12 @@ const Work = () => {
     });
 
     // Refresh ScrollTrigger after layout settles
-    ScrollTrigger.refresh();
+    const timer = setTimeout(() => {
+      ScrollTrigger.refresh();
+    }, 150);
 
-    // Clean up
     return () => {
+      clearTimeout(timer);
       timeline.kill();
       ScrollTrigger.getById("work")?.kill();
     };

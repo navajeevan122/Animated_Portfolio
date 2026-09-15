@@ -1,192 +1,150 @@
 export const config = {
     developer: {
-        name: "Redoyanul",
-        fullName: "Redoyanul Haque",
-        title: "AI & Full-Stack Developer",
-        description: "AI & Full-Stack Developer building intelligent systems and modern web applications. Passionate about machine learning, deep learning, and creating next-gen autonomous agents."
+        name: "Nava Jeevan",
+        fullName: "Chitikena Nava Jeevan Kumar",
+        title: "Software Engineer",
+        description: "Computer Science undergraduate with a strong foundation in Core Java, OOP, DSA, Java Collections, Spring Boot, SQL, and React.js. Hands-on experience building full-stack applications with Java and database integration. Solved 1500+ programming problems on CodeChef."
     },
     social: {
-        github: "red1-for-hek",
-        email: "redoyanul1234@gmail.com",
-        location: "Bangladesh"
+        github: "navajeevan122",
+        email: "navajeevan122@gmail.com",
+        location: "Andhra Pradesh, India"
     },
     about: {
         title: "About Me",
-        description: "I am a self-taught AI & Full-Stack Developer from Bangladesh. I build intelligent systems, chatbots, and modern web applications. My expertise includes Machine Learning, Deep Learning, NLP, and Full-Stack Web Development with React, Node.js, and Python. Currently building next-gen AI Agents and JARVIS-like Personal Assistants. I have a competitive programming mindset and a deep passion for automation. Code is poetry, AI is the canvas."
+        description: "Computer Science undergraduate with a strong foundation in Core Java, OOP, DSA, Java Collections, Spring Boot, SQL, and React.js. Hands-on experience building full-stack applications with Java and database integration. Solved 1500+ programming problems on CodeChef, demonstrating strong problem-solving skills."
     },
-    experiences: [
+    education: [
         {
-            position: "Learning Something New",
-            company: "Self-Development",
-            period: "2025 - Present",
-            location: "Bangladesh",
-            description: "Continuously exploring emerging technologies, researching advanced AI systems, and pushing the boundaries of what's possible in tech.",
-            responsibilities: [
-                "Researching cutting-edge AI and ML technologies",
-                "Experimenting with new frameworks and tools",
-                "Contributing to open-source projects",
-                "Building innovative personal projects"
-            ],
-            technologies: ["Research", "Innovation", "Open Source", "New Tech"]
+            degree: "B.Tech in Computer Science and Engineering",
+            institution: "Sasi Institute of Technology & Engineering",
+            location: "Tadepalligudem, Andhra Pradesh",
+            period: "2023 – 2027",
+            score: "CGPA: 8.8 / 10",
+            description: "Tadepalligudem, Andhra Pradesh — Focus on Core Java, Data Structures & Algorithms, Object-Oriented Programming, Database Systems, and Web Application Development with 8.8 CGPA."
         },
         {
-            position: "AI Engineer",
-            company: "Freelance & Projects",
-            period: "2025",
-            location: "Bangladesh",
-            description: "Developing intelligent AI systems, chatbots, and machine learning solutions. Building next-gen conversational AI agents and JARVIS-like personal assistants.",
-            responsibilities: [
-                "Building AI-powered chatbots and conversational agents",
-                "Developing machine learning models with TensorFlow and PyTorch",
-                "Working with LLMs and transformer architectures",
-                "Creating autonomous AI systems and automation tools"
-            ],
-            technologies: ["Python", "TensorFlow", "PyTorch", "LLMs", "NLP", "AI Agents"]
+            degree: "Intermediate (MPC)",
+            institution: "Vasavi Vignan Junior College",
+            location: "Penugonda, Andhra Pradesh",
+            period: "2021 – 2023",
+            score: "96.2%",
+            description: "Penugonda, Andhra Pradesh — Specialized in Mathematics, Physics, and Chemistry (MPC) with an academic score of 96.2%. Built strong analytical, logical reasoning, and problem-solving fundamentals."
         },
         {
-            position: "Full-Stack Developer",
-            company: "Freelance & Projects",
-            period: "2024",
-            location: "Bangladesh",
-            description: "Built complete web applications from frontend to backend. Developed responsive UIs, RESTful APIs, and database solutions for various clients and projects.",
-            responsibilities: [
-                "Developing full-stack web applications using React and Node.js",
-                "Building RESTful APIs and integrating databases",
-                "Creating responsive and interactive user interfaces",
-                "Deploying and maintaining web applications"
-            ],
-            technologies: ["React", "Node.js", "MongoDB", "Express", "Next.js", "TypeScript"]
-        },
-        {
-            position: "Python Developer",
-            company: "Self-Taught & Projects",
-            period: "2023",
-            location: "Bangladesh",
-            description: "Dove deep into Python programming, building automation scripts, bots, and mastering the fundamentals of software development and problem-solving.",
-            responsibilities: [
-                "Learning Python programming and core concepts",
-                "Building automation scripts and Discord bots",
-                "Exploring data structures and algorithms",
-                "Participating in competitive programming"
-            ],
-            technologies: ["Python", "Automation", "Scripting", "Discord.py", "Problem Solving"]
-        },
-        {
-            position: "Graphic Designer",
-            company: "Freelance",
-            period: "2022",
-            location: "Bangladesh",
-            description: "Started my creative journey as a graphic designer, creating logos, banners, and visual content. This sparked my passion for technology and digital creation.",
-            responsibilities: [
-                "Designing logos and brand identity materials",
-                "Creating social media graphics and banners",
-                "Working with clients on creative projects",
-                "Learning design principles and visual aesthetics"
-            ],
-            technologies: ["Photoshop", "Illustrator", "Canva", "Figma", "Visual Design"]
-        },
-        {
-            position: "Microsoft Office",
-            company: "Begin Learning",
+            degree: "Secondary School Certificate (SSC)",
+            institution: "Jupiter Master Minds Global EM High School",
+            location: "Penugonda, Andhra Pradesh",
             period: "2021",
-            location: "Bangladesh",
-            description: "Started my journey into the digital world by learning Microsoft Office tools. This foundational step introduced me to computers and sparked my curiosity for technology.",
-            responsibilities: [
-                "Learning Microsoft Word, Excel, and PowerPoint",
-                "Creating documents and presentations",
-                "Understanding basic computer operations",
-                "Building foundational digital skills"
-            ],
-            technologies: ["MS Word", "MS Excel", "MS PowerPoint", "Computer Basics"]
+            score: "92.5%",
+            description: "Penugonda, Andhra Pradesh — Completed Board of Secondary Education curriculum with a high academic score of 92.5%. Developed foundational knowledge in Mathematics, Science, and English."
         }
     ],
+    experiences: [
+        {
+            position: "Competitive Programmer (1500+ Solved)",
+            company: "CodeChef & LeetCode",
+            period: "2023 - Present",
+            location: "Online",
+            description: "Demonstrated strong problem-solving and algorithmic skills by solving 1500+ programming problems on CodeChef and earning a 100-Day Diamond Streak. Proficient in Data Structures, Algorithms, and Object-Oriented Programming in Java.",
+            responsibilities: [
+                "Solving complex algorithmic challenges using Java and Python",
+                "Mastering arrays, strings, trees, graphs, dynamic programming, and greedy algorithms",
+                "Maintaining a 100-Day continuous coding streak on CodeChef"
+            ],
+            technologies: ["Core Java", "Python", "DSA", "Problem Solving", "CodeChef"]
+        },
+        {
+            position: "Hackathon Participant",
+            company: "ISRO & Google Cloud",
+            period: "2025 - 2026",
+            location: "India",
+            description: "Participated in the ISRO Bharatiya Antariksh Hackathon 2026 addressing real-world space challenges and the Google Cloud Gen AI Exchange Hackathon 2025 building AI-driven career advisor prototypes.",
+            responsibilities: [
+                "Developing innovative solutions for real-world challenge statements",
+                "Engineering prompt pipelines and software integrations",
+                "Presenting project architecture and technical documentation"
+            ],
+            technologies: ["Java", "Spring Boot", "React.js", "Python"]
+        }
+    ],
+    achievements: [
+        {
+            title: "1500+ Problems Solved on CodeChef",
+            detail: "Demonstrated strong problem-solving and algorithmic skills across multiple topics.",
+            year: "2023 - Present"
+        },
+        {
+            title: "100-Day Diamond Streak on CodeChef",
+            detail: "Achieved continuous daily problem-solving dedication and performance.",
+            year: "2024"
+        },
+        {
+            title: "ISRO Bharatiya Antariksh Hackathon 2026",
+            year: "2026",
+            certId: "2026H2S06BAH-P13812",
+            bullets: [
+                "Successful idea submission addressing real-world space challenges.",
+                "Demonstrated innovative engineering solutions and data management strategies."
+            ]
+        },
+        {
+            title: "Google Cloud Gen AI Exchange Hackathon 2025",
+            year: "2025",
+            certId: "2025H2S08GH-P1000187",
+            bullets: [
+                "Prototype submission for 'Personalized Career and Skills Advisor'.",
+                "Engineered prompt pipelines and seamless AI API integration."
+            ]
+        }
+    ],
+    certifications: [
+        { name: "Oracle AI Foundations Associate", issuer: "Oracle" },
+        { name: "IBM SQL Certification", issuer: "IBM" },
+        { name: "Infosys Machine Learning & Git", issuer: "Infosys" },
+        { name: "HackerRank Problem Solving", issuer: "HackerRank" },
+        { name: "CodeChef Java & Python Certifications", issuer: "CodeChef" }
+    ],
+    languages: ["English", "Telugu"],
     projects: [
         {
             id: 1,
-            title: "Drishti",
-            category: "AI / LLM",
-            technologies: "Python, PyTorch, Transformers, FastAPI, React, MongoDB",
-            image: "/images/Drishti.png",
-            description: "Bangladesh's first intelligent advanced AI chatbot powered by a custom Large Language Model. Features natural language understanding, contextual conversations, and multilingual support including Bengali.",
-            link: "https://huggingface.co/red1-for-hek/drishti-ilm-x1"
+            title: "PoultryMart",
+            category: "Direct Farmer-to-Consumer Marketplace",
+            technologies: "MongoDB, Express.js, React.js, Node.js, WhatsApp API",
+            image: "/images/poultrymart.jpg",
+            description: "Direct Farmer-to-Consumer Marketplace connecting poultry farmers directly with consumers for direct country chicken sales. Developed using React.js and MongoDB with account-less buyer checkout, one-tap WhatsApp messaging, direct call integration, and farmer/admin dashboards for product management and inventory updates.",
+            link: "https://poultry-mart.vercel.app/"
         },
         {
             id: 2,
-            title: "VoteChain",
-            category: "Blockchain",
-            technologies: "Solidity, Web3.js, React, Ethereum, IPFS, MetaMask, Node.js",
-            image: "/images/VoteChain.png",
-            description: "A decentralized election system built on blockchain technology ensuring transparent, tamper-proof, and verifiable voting. Features smart contracts for vote integrity and real-time result tracking.",
-            link: "https://github.com/red1-for-hek/smart-election-by-blockchain"
-        },
-        {
-            id: 4,
-            title: "Flood Spaces 2.0",
-            category: "AI / ML",
-            technologies: "Python, TensorFlow, Pandas, React, FastAPI, GIS",
-            image: "/images/FloodSpaces.png",
-            description: "Predicts flood risks across Bangladesh up to one month in advance and sends early alerts to help people prepare.",
-            link: "https://github.com/red1-for-hek/Flood-Spaces-2.0"
-        },
-        {
-            id: 5,
-            title: "Phoenix 3.0",
-            category: "AI Assistant",
-            technologies: "Python, Speech Recognition, PyAutoGUI, OpenAI API, Tkinter",
-            image: "/images/Phoenix3.0.png",
-            description: "A JARVIS-inspired personal AI desktop assistant. Controls system functions, manages tasks, answers queries, automates workflows, and provides voice-activated computing experience.",
-            link: "https://github.com/red1-for-hek/phoenix3.0"
-        },
-        {
-            id: 6,
-            title: "RedxChess",
-            category: "AI / Game Engine",
-            technologies: "Python, C++, Neural Networks, Bitboards, UCI Protocol",
-            image: "/images/RedxChess.png",
-            description: "A high-performance chess engine rated 3640 ELO. Features advanced search algorithms, neural network evaluation, and optimized bitboard representation for lightning-fast move generation.",
-            link: "/play"
-        },
-        {
-            id: 7,
-            title: "Prodesk",
-            category: "E-commerce",
-            technologies: "React, Node.js, MongoDB, Express, Stripe",
-            image: "/images/Prodesk.png",
-            description: "A complete e-commerce platform with secure checkout and smooth product browsing.",
-            link: "https://github.com/red1-for-hek/prodesk"
-        },
-        {
-            id: 8,
-            title: "HekTools",
-            category: "Security / Android",
-            technologies: "Kotlin, Android SDK, Firebase, Python, Encryption",
-            image: "/images/hektools.png",
-            description: "An advanced Android monitoring and security research tool. Features remote device management, activity logging, and encrypted data transmission for security testing purposes.",
-            link: ""
+            title: "TaxGenie",
+            category: "Tax Management Platform",
+            technologies: "Java, Spring Boot, React.js, MongoDB, RESTful APIs",
+            image: "/images/taxgenie.jpg",
+            description: "Full-stack tax management application built with Java Spring Boot backend and React.js frontend. Processes company financial information, income, expenditure data, calculates tax results, and integrates MongoDB for storing financial records.",
+            link: "https://taxgenie-ai.render.com"
         }
     ],
     contact: {
-        email: "redoyanul1234@gmail.com",
-        github: "https://github.com/red1-for-hek",
-        linkedin: "https://linkedin.com/in/red1-for-hek",
-        twitter: "https://x.com/red_1_ul",
-        facebook: "https://www.facebook.com/redoyanulhaque.hacker.official",
-        instagram: "https://www.instagram.com/red_1_ul"
+        email: "navajeevan122@gmail.com",
+        github: "https://github.com/navajeevan122",
+        linkedin: "https://www.linkedin.com/in/nava-jeevan-kumar-chitikena/",
+        leetcode: "https://leetcode.com/u/navajeevan122/",
+        codechef: "https://www.codechef.com/users/kumar1267"
     },
     skills: {
         develop: {
-            title: "AI DEVELOPER",
-            description: "Building intelligent systems & AI solutions",
-            details: "Developing AI agents, chatbots, and machine learning models using Python, TensorFlow, and PyTorch. Specializing in LLMs, NLP, deep learning, and autonomous systems.",
-            tools: ["Python", "TensorFlow", "PyTorch", "OpenCV", "Scikit-learn", "LLMs", "NLP", "Deep Learning", "Chatbots", "AI Agents"]
+            title: "CORE JAVA & BACKEND",
+            description: "Core Java & Spring Boot Systems",
+            details: "Core Java, OOP, Data Structures & Algorithms, Java Collections, Exception Handling, Multithreading, Java 8 Features, Spring Boot, JDBC, MongoDB, SQL.",
+            tools: ["Java", "Spring Boot", "JDBC", "SQL", "MongoDB", "REST APIs", "DSA & OOP"]
         },
         design: {
-            title: "FULL-STACK",
-            description: "Modern web development & scalable applications",
-            details: "Building responsive and performant web applications using React, Next.js, Node.js, and databases. Creating seamless user experiences with modern UI/UX principles.",
-            tools: ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "PostgreSQL", "TailwindCSS", "REST APIs", "Docker", "Git"]
+            title: "FRONTEND & TOOLS",
+            description: "Web Technologies & Developer Tools",
+            details: "React.js, HTML5, CSS3, JavaScript, Python, Git, GitHub, VS Code.",
+            tools: ["React.js", "HTML5", "CSS3", "Python", "Git", "GitHub", "VS Code"]
         }
     }
 };
-
-

@@ -1,9 +1,8 @@
 import {
   FaGithub,
-  FaInstagram,
   FaLinkedinIn,
-  FaXTwitter,
 } from "react-icons/fa6";
+import { SiLeetcode, SiCodechef } from "react-icons/si";
 import "./styles/SocialIcons.css";
 import { TbNotes } from "react-icons/tb";
 import { useEffect } from "react";
@@ -71,17 +70,23 @@ const SocialIcons = () => {
           </a>
         </span>
         <span>
-          <a href={config.contact.twitter} target="_blank" rel="noopener noreferrer">
-            <FaXTwitter />
+          <a href={config.contact.leetcode} target="_blank" rel="noopener noreferrer">
+            <SiLeetcode />
           </a>
         </span>
         <span>
-          <a href={config.contact.instagram} target="_blank" rel="noopener noreferrer">
-            <FaInstagram />
+          <a href={config.contact.codechef} target="_blank" rel="noopener noreferrer">
+            <SiCodechef />
           </a>
         </span>
       </div>
-      <a className="resume-button" href="#">
+      <a
+        className="resume-button"
+        href="/resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="View & Download Resume"
+      >
         <HoverLinks text="RESUME" />
         <span>
           <TbNotes />

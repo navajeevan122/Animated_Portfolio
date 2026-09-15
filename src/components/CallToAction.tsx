@@ -11,6 +11,15 @@ const CallToAction = () => {
         </Link>
         
         <a 
+          href="/resume.pdf" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="cta-btn cta-btn-resume"
+          data-cursor="disable"
+        >
+          Download Resume ↓
+        </a>
+        <a 
           href={config.contact.linkedin} 
           target="_blank" 
           rel="noopener noreferrer" 

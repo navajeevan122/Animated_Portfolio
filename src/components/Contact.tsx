@@ -74,7 +74,7 @@ const Contact = () => {
             </p>
           </div>
           <div className="contact-box">
-            <h4>Social</h4>
+            <h4>Social & Coding</h4>
             <a
               href={config.contact.github}
               target="_blank"
@@ -94,31 +94,22 @@ const Contact = () => {
               Linkedin <MdArrowOutward />
             </a>
             <a
-              href={config.contact.twitter}
+              href={config.contact.leetcode}
               target="_blank"
               rel="noopener noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
-              Twitter <MdArrowOutward />
+              LeetCode <MdArrowOutward />
             </a>
             <a
-              href={config.contact.facebook}
+              href={config.contact.codechef}
               target="_blank"
               rel="noopener noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
-              Facebook <MdArrowOutward />
-            </a>
-            <a
-              href={config.contact.instagram}
-              target="_blank"
-              rel="noopener noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Instagram <MdArrowOutward />
+              CodeChef <MdArrowOutward />
             </a>
           </div>
           <div className="contact-box">

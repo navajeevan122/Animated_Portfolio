@@ -3,9 +3,6 @@ import "./styles/Landing.css";
 import { config } from "../config";
 
 const Landing = ({ children }: PropsWithChildren) => {
-  const nameParts = config.developer.fullName.split(" ");
-  const firstName = nameParts[0] || config.developer.name;
-  const lastName = nameParts.slice(1).join(" ") || "";
 
   return (
     <>
@@ -14,26 +11,22 @@ const Landing = ({ children }: PropsWithChildren) => {
           <div className="landing-intro">
             <h2>Hello! I'm</h2>
             <h1>
-              {firstName.toUpperCase()}
-              {' '}
-              <br />
-              {lastName && <span>{lastName.toUpperCase()}</span>}
+              JEEVAN
             </h1>
           </div>
           <div className="landing-info">
-            <h3>An</h3>
             <h2 className="landing-info-h2">
-              <div className="landing-h2-1">AI Engineer</div>
+              <span className="landing-h2-1">SOFTWARE</span>
             </h2>
-            <h2>
-              <div className="landing-h2-info">Full-Stack Developer</div>
+            <h2 className="landing-info-sub">
+              <span className="landing-h2-info">ENGINEER</span>
             </h2>
           </div>
           {/* Mobile photo - shows only on mobile when 3D character is hidden */}
           <div className="mobile-photo">
             <img
               src="/images/mypicnbg.png"
-              alt="Redoyanul Haque"
+              alt={config.developer.fullName}
               loading="eager"
               fetchPriority="high"
               decoding="async"

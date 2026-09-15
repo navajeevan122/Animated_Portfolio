@@ -25,6 +25,9 @@ const Navbar = () => {
     // Start paused
     lenis.stop();
 
+    // Sync Lenis with GSAP ScrollTrigger
+    lenis.on("scroll", ScrollTrigger.update);
+
     // Handle smooth scroll animation frame
     function raf(time: number) {
       lenis?.raf(time);
@@ -67,14 +70,14 @@ const Navbar = () => {
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
-          RH
+          NJK
         </a>
         <a
-          href="mailto:redoyanul1234@gmail.com"
+          href="mailto:navajeevan122@gmail.com"
           className="navbar-connect"
           data-cursor="disable"
         >
-          redoyanul1234@gmail.com
+          navajeevan122@gmail.com
         </a>
         <ul>
           <li>
